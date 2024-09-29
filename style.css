@@ -1,0 +1,173 @@
+.klee-one-regular {
+    font-family: "Klee One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bgclr {
+    background-color: #fdfbf2;
+    width: 100%;
+}
+
+ul.list1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46453f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+li.list1 {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f4f2de;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3b3a2e;
+}
+
+.active {
+    background-color: #3b3a2e;
+}
+
+.ptitle {
+    color:#3b3a2e;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 75%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f4f2de;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: 1px 1px 5px #3b3a2e;
+}
+
+hr {
+    height: 1px;
+    background-color: #3b3a2e;
+    border: none;
+}
+
+.pdlist {
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    height: flex;
+    padding: 10px;
+    border: 3px solid #46453f;
+    overflow: auto;
+}
+
+.p_image img {
+    max-width: 100%;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.p_name {
+    overflow: hidden;
+}
+
+.p_3D {
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fdfbf2;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 30%;
+    text-align: center;
+}
+
+.popup-content button {
+    display: block;
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #46453f;
+}
+
+.footer p {
+    color: #f4f2de;
+}
+
+.deskripsi{
+    text-align: center;
+    text-justify: inter-word;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
